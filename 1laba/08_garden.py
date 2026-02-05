@@ -15,7 +15,7 @@ meadow_set = set(meadow)
 
 
 # выведите на консоль все виды цветов
-print(garden_set, meadow_set)
+print(garden_set.union(meadow_set))
 
 # выведите на консоль те, которые растут и там и там
 print(set.intersection(garden_set,meadow_set))
