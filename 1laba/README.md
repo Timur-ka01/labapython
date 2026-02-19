@@ -32,7 +32,7 @@ Moscow, London, Paris
 1. находим площадь круга по формуле S = πr²
 2 - 3. По теореме Пифагора считаем на каком расстоянии от начала координат находится точно, и если данная расстояние от точки до начала координат меньше нашего радиуса, то точка находится внутри окружности и надо вывести True, в обратном случае выводим False
 ### Результат всей программы:
-
+![https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223630.png?raw=true](https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223633.png?raw=true))
 
 ## Завдание 2
 ### Условие: 
@@ -41,7 +41,7 @@ Moscow, London, Paris
 ### Описание проделанной работы: 
 Методом тыка находим нужную нам комбинацию, которая в итоге выглядит 1 * (2 + 3) * 4 + 5 и выводим результат данного примера
 Результат всей программы:
-"25"
+["25"](https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223635.png?raw=true)
 
 ## Завдание 3
 ### Условие: 
@@ -54,6 +54,7 @@ Moscow, London, Paris
 ### Описание проделанной работы: 
 Высчитываем по правилам правильные срезу из нашей строки, после чего последовательно выводим определенные срезы которые требуются по условию задачи
 ### Результат всей программы:
+![https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223635.png?raw=true](https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223641.png?raw=true)
 
 ## Завдание 4
 ### Условие: 
@@ -73,6 +74,7 @@ Moscow, London, Paris
 
 ### Результат всей программы:
 
+![https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223641.png?raw=true](https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223646.png?raw=true)
 
 ## Завдание 5
 ### Условие: 
@@ -94,6 +96,7 @@ Moscow, London, Paris
 
 ### Результат всей программы:
 
+![https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223641.png?raw=true](https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223651.png?raw=true)
 
 ## Завдание 6
 ### Условие: 
@@ -109,6 +112,7 @@ Moscow, London, Paris
 
 ### Результат всей программы:
 
+![https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223635.png?raw=true](https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223641.png?raw=true)
 
 ## Задание 7
 ### Условие: 
@@ -123,6 +127,8 @@ Moscow, London, Paris
 Четвертое и пятое слова получены с помощью среза и последующего разворота строки в обратном порядке.
 
 ### Результат всей программы:
+
+![https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223635.png?raw=true](https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223641.png?raw=true)
 
 ## Задание 8
 
@@ -143,6 +149,7 @@ Moscow, London, Paris
 
 ### Результат всей программы:
 
+![https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223635.png?raw=true](https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223641.png?raw=true)
 
 ## Задание 9
 
@@ -155,6 +162,8 @@ Moscow, London, Paris
 
 ### Результат всей программы:
 
+![https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223635.png?raw=true](https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223641.png?raw=true)
+
 ## Задание 10
 
 ### Условие: 
@@ -165,6 +174,8 @@ Moscow, London, Paris
 Для удобства поиска минимальных цен была создана новая структура словаря sweets, где каждый ключ — это название сладости, а значение — список словарей, каждый из которых содержит: название магазина, цену товара в этом магазине
 
 ### Результат всей программы:
+
+![https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223635.png?raw=true](https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223641.png?raw=true)
 
 ## Задание 11
 
@@ -186,6 +197,8 @@ Moscow, London, Paris
 Аналогично рассчитаны и выведены результаты для Стола, Дивана и Стула, включая все партии, если товар представлен несколькими записями в списке store.
 
 ### Результат всей программы:
+
+![https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223635.png?raw=true](https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223641.png?raw=true)
 
 ## Список использованных источников:
 <https://doka.guide/tools/markdown/>
