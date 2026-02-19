@@ -112,7 +112,7 @@ Moscow, London, Paris
 
 ### Результат всей программы:
 
-![https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223635.png?raw=true](https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223641.png?raw=true)
+![https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223641.png?raw=true](https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223655.png?raw=true)
 
 ## Задание 7
 ### Условие: 
@@ -128,7 +128,7 @@ Moscow, London, Paris
 
 ### Результат всей программы:
 
-![https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223635.png?raw=true](https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223641.png?raw=true)
+![https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223641.png?raw=true](https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223700.png?raw=true)
 
 ## Задание 8
 
@@ -149,7 +149,7 @@ Moscow, London, Paris
 
 ### Результат всей программы:
 
-![https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223635.png?raw=true](https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223641.png?raw=true)
+![https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223641.png?raw=true](https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223705.png?raw=true)
 
 ## Задание 9
 
@@ -162,7 +162,7 @@ Moscow, London, Paris
 
 ### Результат всей программы:
 
-![https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223635.png?raw=true](https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223641.png?raw=true)
+![[https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223635.png?raw=true](https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223641.png?raw=true)](https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223709.png?raw=true)
 
 ## Задание 10
 
@@ -174,8 +174,6 @@ Moscow, London, Paris
 Для удобства поиска минимальных цен была создана новая структура словаря sweets, где каждый ключ — это название сладости, а значение — список словарей, каждый из которых содержит: название магазина, цену товара в этом магазине
 
 ### Результат всей программы:
-
-![https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223635.png?raw=true](https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223641.png?raw=true)
 
 ## Задание 11
 
@@ -198,7 +196,7 @@ Moscow, London, Paris
 
 ### Результат всей программы:
 
-![https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223635.png?raw=true](https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223641.png?raw=true)
+![[https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223635.png?raw=true](https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223641.png?raw=true)](https://github.com/Timur-ka01/labapython/blob/master/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-02-19%20223714.png?raw=true)
 
 ## Список использованных источников:
 <https://doka.guide/tools/markdown/>
