@@ -205,6 +205,8 @@ Moscow, London, Paris
 <https://pythonworld.ru/tipy-dannyx-v-python/mnozhestva-set-i-frozenset.html>
 
 ## руководство для добавления на github 
+```
 git add (путь к файлу который надо поменять)
 git commit -m (название которое придумаешь)
 git push
+```
