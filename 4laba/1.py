@@ -1,8 +1,8 @@
 import requests
 import time
 
-def pi():
-    def door():
+def f():
+    def f1():
         r = requests.get('https://dogapi.dog/api/v2/facts')
         data = r.json()
         n = data['data'][0]['attributes']['body']
