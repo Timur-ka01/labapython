@@ -16,11 +16,9 @@
 ## Результат программы 
 ![Uploading image.png…](https://github.com/Timur-ka01/labapython/blob/master/image/5laba.png?raw=true)
 
-
 ## Ссылки на используемые материалы 
-1. [декоратор python](https://habr.com/ru/companies/otus/articles/727590/)
-2. [request python](https://pythonru.com/biblioteki/kratkoe-rukovodstvo-po-biblioteke-python-requests)
-3. [json](https://habr.com/ru/articles/554274/)
+1. [КЕГЭ](https://pythonru.com/biblioteki/kratkoe-rukovodstvo-po-biblioteke-python-requests)
+3. [генератор python](https://skillbox.ru/media/code/generatory_python_chto_eto_takoe_i_zachem_oni_nuzhny/)
 4. [time python](https://docs.python.org/3/library/time.html)
-5. [замыкание python](https://docs.python.org/3/library/time.html)
+5. [map() python](https://skillbox.ru/media/code/funkciya-map-v-python-zachem-nuzhna-i-kak-ey-polzovatsya/)
 
