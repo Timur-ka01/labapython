@@ -7,7 +7,7 @@ def f():
         data = r.json()
         n = data['data'][0]['attributes']['body']
         return n
-    return door()
+    return f1
 
 def limit_calls(x):
     last_call = 0
@@ -17,13 +17,19 @@ def limit_calls(x):
         now = time.time()
 
         if now - last_call < 2:
-            return
+            print('погоди')
+            return None
         last_call = now
         return x()
 
     return wrapper
 
 
-decorationpi = limit_calls(pi)
-print(decorationpi())
+p = f()
+decorationpi = limit_calls(p)
 
+print(decorationpi())
+time.sleep(1)
+print(decorationpi())
+time.sleep(3)
+print(decorationpi())
