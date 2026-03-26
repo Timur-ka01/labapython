@@ -1,9 +1,10 @@
 import requests
 import time
 
-def f():
+def f(url):
+    @limit_calls
     def f1():
-        r = requests.get('https://dogapi.dog/api/v2/facts')
+        r = requests.get(url)
         data = r.json()
         n = data['data'][0]['attributes']['body']
         return n
@@ -25,12 +26,12 @@ def limit_calls(x):
     return wrapper
 
 
-p = f()
+p = f('https://dogapi.dog/api/v2/facts')
 decorationpi = limit_calls(p)
 
-print(decorationpi())
+print(p())
 time.sleep(1)
-print(decorationpi())
+print(p())
 time.sleep(3)
-print(decorationpi())
+print(p())
 
