@@ -4,14 +4,16 @@ a1 = 1.0
 a2 = 1.0
 
 def f(a1, b1):
-    k = 5
+    k = 4
+    print(f"a{1}: {a1}")
+    print(f"b{1}: {b1}")
     for i in range(k):
         anext = (math.sqrt(b1) + (math.sqrt(a1))* 0.5)*0.5
         bnext = 1.5 * math.sqrt(b1) + 0.5 * (a1) ** 2
         print(f"a{i + 2}: {anext}")
         print(f"b{i + 2}: {bnext}")
         a1 = anext
-        b1 = anext
+        b1 = bnext
 
 def p(a1, b1, i):
     print(f"a{i}: {a1}")
