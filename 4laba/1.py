@@ -30,8 +30,9 @@ def f(url):
 
 p = f('https://dogapi.dog/api/v2/facts')
 
-print(p())
+
+print(f('https://dogapi.dog/api/v2/facts'))
 time.sleep(1)
-print(p())
+print(f('https://dogapi.dog/api/v2/facts'))
 time.sleep(3)
-print(p())
+print(f('https://dogapi.dog/api/v2/facts'))
