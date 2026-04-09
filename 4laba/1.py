@@ -25,9 +25,7 @@ def limit_calls(x):
 
     return wrapper
 
-
 p = f('https://dogapi.dog/api/v2/facts')
-decorationpi = limit_calls(p)
 
 print(p())
 time.sleep(1)

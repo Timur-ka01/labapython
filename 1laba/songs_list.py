@@ -23,10 +23,6 @@ violator_songs_list = [
 # Обратите внимание, что делать много вычислений внутри print() - плохой стиль.
 # Лучше заранее вычислить необходимое, а затем в print(xxx, yyy, zzz)
 
-x = violator_songs_list[3][1]
-y = violator_songs_list[5][1]
-z = violator_songs_list[8][1]
-print('Три песни звучат', round(x + y + z, 2))
 # Есть словарь песен группы Depeche Mode
 violator_songs_dict = {
     'World in My Eyes': 4.76,
@@ -43,7 +39,23 @@ violator_songs_dict = {
 # распечатайте общее время звучания трех песен: 'Sweetest Perfection', 'Policy of Truth' и 'Blue Dress'
 #   А другие три песни звучат ХХХ минут
 
-a = violator_songs_dict['Sweetest Perfection']
-b = violator_songs_dict['Policy of Truth']
-c = violator_songs_dict['Blue Dress']
-print('А другие три песни звучат', round(a + b + c, 0))
+def calculate_song_times():
+    x = violator_songs_list[3][1]
+    y = violator_songs_list[5][1]
+    z = violator_songs_list[8][1]
+    first_three = round(x + y + z, 2)
+    
+    a = violator_songs_dict['Sweetest Perfection']
+    b = violator_songs_dict['Policy of Truth']
+    c = violator_songs_dict['Blue Dress']
+    second_three = round(a + b + c, 0)
+    
+    return {
+        'first_three': first_three,
+        'second_three': second_three
+    }
+
+if __name__ == "__main__":
+    result = calculate_song_times()
+    print('Три песни звучат', result['first_three'], 'минут')
+    print('А другие три песни звучат', result['second_three'], 'минут')

@@ -31,10 +31,13 @@ secret_message = [
 #   Требуется задать конкретные индексы, например secret_message[3][12:23:4]
 #   4е и 5е слова нужно получить за 1 срез
 #   Если нужны вычисления и разные пробы - делайте это в консоли пайтона, тут нужен только результат
+def decrypt_message():
+    a1 = secret_message[0][3]
+    a2 = secret_message[1][9:13]
+    a3 = secret_message[2][5:15:2]
+    a4 = secret_message[3][7:13][::-1]
+    a5 = secret_message[4][16:21][::-1]
+    return f"{a1} {a2} {a3} {a4} {a5}"
 
-a1 = secret_message[0][3]
-a2 = secret_message[1][9:13]
-a3 = secret_message[2][5:15:2]
-a4 = secret_message[3][7:13][::-1]
-a5 = secret_message[4][16:21][::-1]
-print(a1, a2, a3, a4, a5)
+if __name__ == "__main__":
+    print(decrypt_message())

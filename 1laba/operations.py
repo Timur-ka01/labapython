@@ -9,6 +9,10 @@
 
 # Пример для чисел "1 2 3" и "9"
 result = 1 * (2 + 3) * 4 + 5
-print(result)
 
-# TODO написать формулу для 1 2 3 4 5 и вывести значение на консоль
+def calculate_expression():
+    # TODO написать формулу для 1 2 3 4 5 и вывести значение на консоль
+    return result
+
+if __name__ == "__main__":
+    print(calculate_expression())
