@@ -18,6 +18,11 @@ def limit_calls(x):
 
     return wrapper
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 971e8e6f93bc0ccc3d2798cd0f5b2c5f3ce67675
 @limit_calls
 def f(url):
     def f1():
@@ -28,6 +33,10 @@ def f(url):
     return f1
 
 
+<<<<<<< HEAD
+=======
+>>>>>>> 97cd910331d8b6215852ee3901dd11f4e1a050cf
+>>>>>>> 971e8e6f93bc0ccc3d2798cd0f5b2c5f3ce67675
 p = f('https://dogapi.dog/api/v2/facts')
 
 

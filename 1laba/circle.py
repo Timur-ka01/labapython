@@ -25,24 +25,35 @@ def is_point_inside_circle(point, radius, center=(0, 0)):
     distance = ((x - cx) ** 2 + (y - cy) ** 2) ** 0.5
     return distance < radius
 
-# Читаем радиус круга с входа пользователя
-radius = int(input())
+def get_circle_info(radius):
+    # Читаем радиус круга с входа пользователя
+    # Выводим площадь круга с заданным радиусом
+    area = calculate_area(radius)
+    
+    # Определяем координаты первой точки
+    point_1 = (23, 34)
+    # Проверяем, лежит ли точка внутри круга с радиусом 42 и центром в (0, 0)
+    point_1_inside = is_point_inside_circle(point_1, radius)
+    
+    # То же самое для второй точки
+    point_2 = (30, 30)
+    point_2_inside = is_point_inside_circle(point_2, radius)
+    
+    return {
+        'area': area,
+        'point_1_inside': point_1_inside,
+        'point_2_inside': point_2_inside
+    }
 
-# Выводим площадь круга с заданным радиусом
-print(calculate_area(radius))
-
-# Определяем координаты первой точки
-point_1 = (23, 34)
-# Проверяем, лежит ли точка внутри круга с радиусом 42 и центром в (0, 0)
-if is_point_inside_circle(point_1, 42):
-    print('True')
-else:
-    print('False')
-
-# То же самое для второй точки
-point_2 = (30, 30)
-if is_point_inside_circle(point_2, 42):
-    print('True')
-else:
-    print('False')
-
+if __name__ == "__main__":
+    radius = int(input())
+    info = get_circle_info(radius)
+    print(info['area'])
+    if info['point_1_inside']:
+        print('True')
+    else:
+        print('False')
+    if info['point_2_inside']:
+        print('True')
+    else:
+        print('False')

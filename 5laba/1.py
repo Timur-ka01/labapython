@@ -5,11 +5,16 @@ def f():
         if len(i) > limit:
             i = i[:limit]
 
-        words = i.split()
-        result = "".join(map(lambda word: word[::-1], words))
-        yield result
+       
+        yield i
 
 
 generator = f()
+
+def p(word):
+    return word[::-1]
+
 for i in generator:
+    words = i.split()
+    result = "".join(map(p, words))
     print(i)
