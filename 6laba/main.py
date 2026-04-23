@@ -73,6 +73,11 @@ def save():
 
 root = tk.Tk()
 root.title("Расчет помещений")
+# 1. Задать размер окна (ширина x высота)
+root.geometry("500x400")
+
+# 2. Запретить изменение размера окна (сделать статичным)
+root.resizable(False, False)
 
 last_result = ""
 var = tk.IntVar(value=1)

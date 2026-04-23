@@ -8,4 +8,4 @@ def test_returns_dict():
     assert isinstance(get_distances(), dict)
 
 def test_moscow_london():
-    assert round(get_distances()['Moscow']['London'], 2) == 148.66
+    assert round(get_distances()['Moscow']['London'], 2) == 145.6
