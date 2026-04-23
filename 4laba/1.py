@@ -19,15 +19,18 @@ def limit_calls(delay=2):
             return func(*args, **kwargs)
         
         return wrapper
+    
     return decorator
 
 
+
+
 @limit_calls()
-def get_fact(url):
+def get_fact1(url):
     r = requests.get(url)
     data = r.json()
-    n = data['data'][0]['attributes']['body']
-    return n
+    return data['data'][0]['attributes']['body']
+
 
 
 @limit_calls(delay=1)
@@ -40,10 +43,9 @@ def countdown(n):
 
 
 url = 'https://dogapi.dog/api/v2/facts'
-print(get_fact(url))
+print(get_fact1(url))
 time.sleep(1)
-print(get_fact(url))
-time.sleep(3)
-print(get_fact(url))
+print(get_fact1(url))
+
 
 print(countdown(5))
