@@ -32,7 +32,7 @@ square() – универсальная функция, которая сама 
 С помощью библиотек python-docx и openpyxl реализовал сохранение последнего результата в report.docx и report.xlsx.
 
 ## Результат программы 
-![Uploading image.png…](https://github.com/Timur-ka01/labapython/blob/master/image/5laba.png?raw=true)
+![[Uploading image.png…](https://github.com/Timur-ka01/labapython/blob/master/image/5laba.png?raw=true)](https://github.com/Timur-ka01/labapython/blob/master/image/labaa6.png?raw=true)
 
 ## Ссылки на используемые материалы 
 1. [КЕГЭ](https://pythonru.com/biblioteki/kratkoe-rukovodstvo-po-biblioteke-python-requests)
