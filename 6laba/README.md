@@ -7,13 +7,9 @@
 
 ### Сделал расчет площади
 В area.py написал функции:
-
 square_room() – умножает ширину на длину.
-
 square_apartment() – суммирует площади всех комнат.
-
 square_building() – суммирует площади всех квартир.
-
 square() – универсальная функция, которая сама определяет тип объекта.
 
 ### Сделал расчет тепла
@@ -21,11 +17,8 @@ square() – универсальная функция, которая сама 
 
 ### Сделал интерфейс
 В main.py на tkinter сделал окошко с:
-
 переключателем (комната / квартира / дом)
-
 полями для ввода данных (размеры комнат, этажи, количество квартир и т.д.)
-
 кнопками "Рассчитать", "Сохранить в файл" и "История БД" (историю делал, но ее убрали).
 
 ### Сохранение в файлы
@@ -35,7 +28,5 @@ square() – универсальная функция, которая сама 
 ![[Uploading image.png…](https://github.com/Timur-ka01/labapython/blob/master/image/5laba.png?raw=true)](https://github.com/Timur-ka01/labapython/blob/master/image/labaa6.png?raw=true)
 
 ## Ссылки на используемые материалы 
-1. [КЕГЭ](https://pythonru.com/biblioteki/kratkoe-rukovodstvo-po-biblioteke-python-requests)
-3. [генератор python](https://skillbox.ru/media/code/generatory_python_chto_eto_takoe_i_zachem_oni_nuzhny/)
-4. [time python](https://docs.python.org/3/library/time.html)
-5. [map() python](https://skillbox.ru/media/code/funkciya-map-v-python-zachem-nuzhna-i-kak-ey-polzovatsya/)
+1. [Tkinker](https://metanit.com/python/tkinter/)
+3. [doc](https://habr.com/ru/companies/skillfactory/articles/553224/)
