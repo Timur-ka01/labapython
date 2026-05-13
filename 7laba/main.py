@@ -1,89 +1,100 @@
 import sys
 from PySide6.QtWidgets import *
-from calculations.models import Room, Apartment, Building
-from calculations.area import square
-from calculations.heat import power
+from calculations.models import Room, Apartment, Building   
+
 
 class App(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setFixedSize(400, 450)
-        self.setWindowTitle("Лаба 7")
+        self.setFixedSize(350, 400)
         
         w = QWidget()
         self.setCentralWidget(w)
-        l = QVBoxLayout(w)
+        layout = QVBoxLayout(w)
         
         # Радиокнопки
-        self.rb = []
-        for t in ["Комната", "Квартира", "Дом"]:
-            rb = QRadioButton(t)
-            rb.toggled.connect(self.switch)
-            l.addWidget(rb)
-            self.rb.append(rb)
-        self.rb[0].setChecked(True)
+        self.rb1 = QRadioButton("Комната")
+        self.rb2 = QRadioButton("Квартира")
+        self.rb3 = QRadioButton("Дом")
+        
+        self.rb1.toggled.connect(self.switch)
+        self.rb2.toggled.connect(self.switch)
+        self.rb3.toggled.connect(self.switch)
+        
+        layout.addWidget(self.rb1)
+        layout.addWidget(self.rb2)
+        layout.addWidget(self.rb3)
         
         # Поля ввода
-        self.w = QLineEdit(); self.w.setPlaceholderText("Ширина")
-        self.l = QLineEdit(); self.l.setPlaceholderText("Длина")
-        self.txt = QTextEdit(); self.txt.setPlaceholderText("5 4\n3 2"); self.txt.hide()
-        self.f = QLineEdit(); self.f.setPlaceholderText("Этажи"); self.f.hide()
-        self.c = QLineEdit(); self.c.setPlaceholderText("Квартир"); self.c.hide()
-        self.a = QLineEdit(); self.a.setPlaceholderText("Площадь"); self.a.hide()
+        self.w = QLineEdit()
+        self.w.setPlaceholderText("Ширина")
+        layout.addWidget(self.w)
         
-        for x in [self.w, self.l, self.txt, self.f, self.c, self.a]:
-            l.addWidget(x)
+        self.l = QLineEdit()
+        self.l.setPlaceholderText("Длина")
+        layout.addWidget(self.l)
         
-        QPushButton("Рассчитать").clicked.connect(self.calc).l中添加?实际上需要单独添加按钮, 我修正一下
-
-        # Кнопка
+        self.txt = QTextEdit()
+        self.txt.setPlaceholderText("5 4\n3 2")
+        self.txt.hide()
+        layout.addWidget(self.txt)
+        
+        self.c = QLineEdit()
+        self.c.setPlaceholderText("Количество квартир")
+        self.c.hide()
+        layout.addWidget(self.c)
+        
+        self.a = QLineEdit()
+        self.a.setPlaceholderText("Площадь квартиры")
+        self.a.hide()
+        layout.addWidget(self.a)
+        
+        # Кнопка и результат
         btn = QPushButton("Рассчитать")
         btn.clicked.connect(self.calc)
-        l.addWidget(btn)
+        layout.addWidget(btn)
         
         self.res = QLabel()
         self.res.setWordWrap(True)
-        l.addWidget(self.res)
+        layout.addWidget(self.res)
+        
+        self.rb1.setChecked(True)
+        self.switch()
     
     def switch(self):
-        t = [r.isChecked() for r in self.rb]
-        self.w.setVisible(t[0])
-        self.l.setVisible(t[0])
-        self.txt.setVisible(t[1])
-        self.f.setVisible(t[2])
-        self.c.setVisible(t[2])
-        self.a.setVisible(t[2])
+        # Просто показываем/скрываем поля
+        self.w.setVisible(self.rb1.isChecked())
+        self.l.setVisible(self.rb1.isChecked())
+        self.txt.setVisible(self.rb2.isChecked())
+        self.c.setVisible(self.rb3.isChecked())
+        self.a.setVisible(self.rb3.isChecked())
     
     def calc(self):
         try:
-            if self.rb[0].isChecked():
+            if self.rb1.isChecked():  # Комната
                 obj = Room(float(self.w.text()), float(self.l.text()))
-                self.res.setText(f"{obj}\nТепло: {power(obj):.0f} Вт\n__mul__(2): {obj*2}")
+                self.res.setText(f"{obj}\nТепло: {obj.area() * 100:.0f} Вт\nУмножение: {obj * 2}")
             
-            elif self.rb[1].isChecked():
+            elif self.rb2.isChecked():  # Квартира
                 obj = Apartment()
                 for line in self.txt.toPlainText().strip().split('\n'):
                     if line.strip():
                         w, l = map(float, line.split())
                         obj.rooms.append(Room(w, l))
-                self.res.setText(f"{obj}\nТепло: {power(obj):.0f} Вт\n__len__: {len(obj)}")
+                self.res.setText(f"{obj}\nТепло: {obj.area() * 100:.0f} Вт")
             
-            else:
+            else:  # Дом
                 obj = Building()
-                side = (float(self.a.text()) ** 0.5)
+                side = float(self.a.text()) ** 0.5
                 for _ in range(int(self.c.text())):
                     apt = Apartment()
                     apt.rooms.append(Room(side, side))
                     obj.apartments.append(apt)
-                self.res.setText(f"{obj}\nТепло: {power(obj):.0f} Вт\n__len__: {len(obj)}")
+                self.res.setText(f"{obj}\nТепло: {obj.area() * 100:.0f} Вт")
         
         except:
             QMessageBox.critical(self, "Ошибка", "Неверные данные")
 
-app = QApplication(sys.argv)
-app.exec_() # В PySide6 запуск немного другой, исправлю
-
-# Правильный запуск:
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     window = App()

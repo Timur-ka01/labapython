@@ -1,2 +1,4 @@
-def square(obj):
-    return obj.area()
+class AreaCalculator:
+    @staticmethod
+    def square(obj):
+        return obj.area()
