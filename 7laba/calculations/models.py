@@ -18,13 +18,11 @@ class Room(Geo):
         if v > 0:
             self._w = v
         else:
-            self._w = 0   # если отрицательное - ставим 0
+            self._w = 0
     
     def area(self): return self.w * self.l
     
-    # Dunder-методы (ровно 2)
     def __str__(self): return f"Комната {self.w}x{self.l} = {self.area():.1f}м²"
-    def __mul__(self, x): return Room(self.w * x, self.l * x)
 
 class Apartment(Geo):
     def __init__(self):
@@ -36,7 +34,6 @@ class Apartment(Geo):
             s = s + r.area()
         return s
     
-    # Dunder-методы (ровно 2)
     def __str__(self): return f"Квартира: {len(self)} комн, {self.area():.1f}м²"
     def __len__(self): return len(self.rooms)
 
