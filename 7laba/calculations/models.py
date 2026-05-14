@@ -6,22 +6,19 @@ class Geo(ABC):
 
 class Room(Geo):
     def __init__(self, w=0, l=0):
-        self._w = w
-        self._l = l
+        self.w = w
+        self.l = l
     
     @property
-    def w(self): return self._w
+    def w(self):
+        return self._w
     
     @w.setter
     def w(self, v):
-        if v > 0: self._w = v
-    
-    @property
-    def l(self): return self._l
-    
-    @l.setter
-    def l(self, v):
-        if v > 0: self._l = v
+        if v > 0:
+            self._w = v
+        else:
+            self._w = 0   # если отрицательное - ставим 0
     
     def area(self): return self.w * self.l
     
