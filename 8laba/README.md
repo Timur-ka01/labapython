@@ -12,7 +12,7 @@
 
 ## Результат программы
 
-![](<img width="524" height="640" alt="image" src="https://github.com/user-attachments/assets/4f494858-ac6a-4266-97b8-72358fdac02a" />)
+![<img width="524" height="640" alt="image" src="https://github.com/user-attachments/assets/4f494858-ac6a-4266-97b8-72358fdac02a" />](https://github.com/Timur-ka01/labapython/blob/master/image/laba8.png?raw=true)
 
 
 ## Ссылки на используемые материалы
