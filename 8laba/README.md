@@ -12,7 +12,7 @@
 
 ## Результат программы
 
-![](https://github.com/Timur-ka01/labapython/blob/master/image/laba_7.png?raw=true)
+![](<img width="524" height="640" alt="image" src="https://github.com/user-attachments/assets/4f494858-ac6a-4266-97b8-72358fdac02a" />)
 
 
 ## Ссылки на используемые материалы
